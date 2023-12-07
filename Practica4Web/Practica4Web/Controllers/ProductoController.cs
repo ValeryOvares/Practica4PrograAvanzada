@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Practica4Web.Models;
 
 namespace Practica4Web.Controllers
 {
@@ -6,10 +7,15 @@ namespace Practica4Web.Controllers
 
 
     {
+
+        ProductoModel modelo = new ProductoModel();
+
+       
         [HttpGet]
         public IActionResult ConsultarProducto()
         {
-            return View();
+            var datos = modelo.Consultar();
+            return View(datos);
         }
 
 

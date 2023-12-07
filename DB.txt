@@ -57,3 +57,14 @@ USE [master]
 GO
 ALTER DATABASE [PracticaS12] SET  READ_WRITE 
 GO
+
+CREATE PROCEDURE ConsultarProductos
+AS
+BEGIN
+    SELECT Id_Compra, Precio, Saldo, Descripcion, Estado
+    FROM Principal
+    ORDER BY CASE WHEN Estado = 'pendiente' THEN 0 ELSE 1 END, Id_Compra;
+END;
+
+
+exec ConsultarProductos

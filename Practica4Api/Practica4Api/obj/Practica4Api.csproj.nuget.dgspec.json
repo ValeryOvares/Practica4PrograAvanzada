@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\varga\\OneDrive\\Documentos\\Fidelitas\\Programacion Web Avanzada\\Practica4Api\\Practica4Api\\Practica4Api.csproj": {}
+    "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\Practica4PrograAvanzada\\Practica4Api\\Practica4Api\\Practica4Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\varga\\OneDrive\\Documentos\\Fidelitas\\Programacion Web Avanzada\\Practica4Api\\Practica4Api\\Practica4Api.csproj": {
+    "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\Practica4PrograAvanzada\\Practica4Api\\Practica4Api\\Practica4Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\varga\\OneDrive\\Documentos\\Fidelitas\\Programacion Web Avanzada\\Practica4Api\\Practica4Api\\Practica4Api.csproj",
+        "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\Practica4PrograAvanzada\\Practica4Api\\Practica4Api\\Practica4Api.csproj",
         "projectName": "Practica4Api",
-        "projectPath": "C:\\Users\\varga\\OneDrive\\Documentos\\Fidelitas\\Programacion Web Avanzada\\Practica4Api\\Practica4Api\\Practica4Api.csproj",
-        "packagesPath": "C:\\Users\\varga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\varga\\OneDrive\\Documentos\\Fidelitas\\Programacion Web Avanzada\\Practica4Api\\Practica4Api\\obj\\",
+        "projectPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\Practica4PrograAvanzada\\Practica4Api\\Practica4Api\\Practica4Api.csproj",
+        "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\Practica4PrograAvanzada\\Practica4Api\\Practica4Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\varga\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -45,6 +45,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -56,8 +64,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.319\\RuntimeIdentifierGraph.json"
         }
       }
     }
